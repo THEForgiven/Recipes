@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recipe to PDF</title>
+  </head>
+  <body>
+    <h1>Create a Recipe PDF</h1>
+    <form method="post">
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" required><br><br>
+      
+      <label for="ingredients">Ingredients (one per line):</label><br>
+      <textarea id="ingredients" name="ingredients" rows="4" cols="50" required></textarea><br><br>
+      
+      <label for="directions">Directions (one per line):</label><br>
+      <textarea id="directions" name="directions" rows="4" cols="50" required></textarea><br><br>
+      
+      <input type="submit" value="Create PDF">
+    </form>
+  </body>
+</html>
